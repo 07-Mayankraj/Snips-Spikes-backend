@@ -44,7 +44,7 @@ app.use(require('express-session')({ secret: 'keyboard cat', resave: true, saveU
 // --------------->>>>>>>> Oauth <<<<<<<<-------------------
 
 // app.use("/", githublogin);
-app.use("/", googlelogin);
+// app.use("/", googlelogin);
 
 
 // --------------->>>>>>>> Routers <<<<<<<<-------------------
