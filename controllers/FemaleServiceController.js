@@ -1,7 +1,6 @@
 const { FemaleModel } = require("../model/FemaleServicemodel.js");
 // --------------->>>>>>>> Female Service Model Location <<<<<<<<-------------------
 
-
 // --------->>>> GET <<<<<---------
 const FemaleGetData = async (req, res) => {
     try {

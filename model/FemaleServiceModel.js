@@ -11,4 +11,4 @@ const FemaleSchema = mongoose.Schema({
 
 const FemaleModel = mongoose.model('FemaleService', FemaleSchema)
 
-module.exports = { FemaleModel, }
+module.exports = { FemaleModel }
